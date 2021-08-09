@@ -34,33 +34,35 @@
         </header>
 
         <!-- hero/jumbrotron -->
-        <section>
-            <div>
-                <h3>Get Started Today</h3>
-                <p>Fill out this form and one of our trainers will schedule a consult</p>
-                <!-- Add form elelment -->
+        <section class="hero">
+            <div class="hero-form">
+                <h3>Get Started Today!</h3>
+                <p>Fill out this form and one of our trainers will schedule a consult</p> 
+                <!-- Add form element -->
                 <form>
-                    <label for="name">Enter full name:</label>
-                    <input type="text" placeholder="Your Name" name="name" id="name" />
-                    <label for="email">Enter email address:</label>
-                    <input type="email" placeholder="Email Address" name="email" id="email" />
-                    <label for="phone">Enter phone number:</label>
-                    <input for="tel" placeholder="Phone Number" name="phone" id="phone" />
+                    <label for="name">Enter full name:</label> 
+                    <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/> 
+                    
+                    <label for="email">Enter email address:</label> 
+                    <input type="email" placeholder="Email Address" name="email" id="email" class="form-input"/> 
+                    
+                    <label for="phone">Enter phone number:</label> 
+                    <input for="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input"/> 
                     <p>
                         Have you worked out with a trainer before?
                         <input type="radio" name="trainer-confirm" id="trainer-yes" />
                         <label for="trainer-yes">Yes</label>
+                        
                         <input type="radio" name="trainer-confirm" id="trainer-no" />
                         <label for="tainer-no">No</label>
                     </p>
                     <p>
                         I acknowledge that I am at least 18 years of age
-                        <input type="checkbox" id="age-yes" name="age-yes" value="Yes" />
-                        <label for="age-yes">Yes</label>
-                        <input type="checkbox" id="age-no" name="age-no" value="No" />
-                        <lable for="age-no">No</lable>
-                    </p>
-                    <input type="submit" value="Get Running">
+                        <input type="checkbox" name="age-yes" value="1" />
+                    </p> 
+                    <button type="submit">
+                        Get Running!
+                    </button>
                 </form>
             </div>
         </section>
