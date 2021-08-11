@@ -76,22 +76,37 @@ footer a {
 }
 
 .hero-form {
+    border: solid 3px #024e76;
     background-color: #fce138;
     padding: 20px;
     width: 500px;
     color: #024e76;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #024e76;
     position: absolute;
     bottom: 120px;
     right: 140px;
     text-align: left;
 }
 
+/*
+Can combine these 3 declorations into a shorthand property
+
+.hero-form {
+  ...
+  border-style: solid;
+  border-width: 3px;
+  border-color: #024e76;
+}
+
+.hero-form {
+  ...
+  border: solid 3px #024e76;
+} 
+
+*/
+
 .hero-form h3 {
     font-size: 24px;
-    margin: 0px;
+    margin: 0;
 }
 
 .hero-form p {
@@ -118,4 +133,8 @@ footer a {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+}
+
+section {
+    padding: 60px;
 }
